@@ -1,0 +1,17 @@
+.content1 {
+    margin: 10px;
+    width: 48%;
+    float: left;
+    clear: both;
+    border-width: 2px;
+}
+
+.content2 {
+    margin: 10px;
+    width: 48%;
+    float: left;
+    border-width: 2px;
+}
+footer {
+    clear: both;
+}

@@ -1,42 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
-* {
-    padding: 0;
+
+body {
+    font-family: 'Audiowide', cursive;
+    color: #333;
+    font-size: 1rem;
     margin: 0;
-}
-html {
-    background-color: rgba(105, 106, 110, 0.719);
     text-align: justify;
     text-justify: inter-word;
 }
-body {
+.container {
+    width: 85%;
     max-width: 1280px;
     margin: 0 auto;
-    font-family: 'Audiowide', cursive;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 0.5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
+    float: left;
+    width: 18%;
     border-radius: 8px;
-    width: 50%;
-    object-fit: cover;
-    height: 150px;    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    letter-spacing: 5px;
+    font-size: 1.2em;
 }
-.navbar ul {
+
+.navigation ul {
+    margin: 1px;
+    padding: 0;
     list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 7px 0;
+    margin-bottom: 5px;
 }
-.navbar ul li {
-    margin: 0 20px;
+
+    .navigation ul li {
+        margin: 0;
+        display: inline-block;
+    }
+
+        .navigation ul li a {
+            display: block;
+            text-align: center;
+            border-radius: 0.5em;
+            text-decoration: none;
+            padding: 10px;
+            transition: 0.4s linear;
+        }
+                .navigation ul li a:hover{
+                background-color: #075060;
+            }
+
+.main {
+    padding-top: 6rem;
 }
-.navbar ul li a{
+
+.footer {
+    background: #f2f2f2;
+    padding: 4rem 0;
     text-align: center;
-    border: 1px #000000 solid;
-    border-radius: 1em;
-    color: #b4ba8d;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
+    margin-top: 6rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .navigation ul {
+        width: 100%;
+    }
+    
+        .navigation ul li {
+            display: block;
+        }
+    
+            .navigation ul li a {
+                display: block;
+                text-align: center;
+                border-radius: 0.5em;
+                text-decoration: none;
+                padding: 10px;
+                transition: all 0.4s linear;
+            }
+                    .navigation ul li a:hover{
+                    background-color: #075060;
+                }
 }
