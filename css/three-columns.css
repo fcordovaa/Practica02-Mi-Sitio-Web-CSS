@@ -1,0 +1,23 @@
+.content3 {
+    margin: 10px;
+    width: 30%;
+    float: left;
+    border-width: 2px;
+    clear: both;
+}
+
+.content4 {
+    margin: 10px;
+    width: 30%;
+    float: left;
+    border-width: 2px;
+}
+.content5 {
+    margin: 10px;
+    width: 30%;
+    float: left;
+    border-width: 2px;
+}
+footer {
+    clear: both;
+}

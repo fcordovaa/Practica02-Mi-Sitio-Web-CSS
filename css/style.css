@@ -8,6 +8,9 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
+h1 {
+    text-align: center;
+}
 .container {
     width: 85%;
     max-width: 1280px;
@@ -71,7 +74,7 @@ body {
 }
 
 .footer {
-    background: #f2f2f2;
+    background: #bbb7b7;
     padding: 4rem 0;
     text-align: center;
     margin-top: 6rem;

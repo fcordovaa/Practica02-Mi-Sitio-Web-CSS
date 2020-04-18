@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-        <!--    
+    <!--    
         General Information about Japanese General Information
         Author: Mateo Cordova
         Date: 06/04/2020
@@ -11,19 +12,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
     <script src="https://kit.fontawesome.com/1732b7ff94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <title>Japon</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="logo-find-container">
-                <img class="logoHome" src="images/logo.jpg" alt="Logo" >
+                <img class="logo-header" src="images/logo.jpg" alt="Logo">
                 <input class="find" type="text" placeholder="Barra de Busqueda">
                 <div class="profile">
-                    <button class="btn"><i class="far fa-user icon"></i></button>
-                    <button class="btn"><i class="fas fa-envelope-open-text icon"></i></button>
-                    <button class="btn"><i class="fas fa-cog icon"></i></button>
-                </div> 
+                    <button class="btn"><i class="far fa-user"></i></button>
+                    <button class="btn"><i class="fas fa-envelope-open-text"></i></button>
+                    <button class="btn"><i class="fas fa-cog"></i></button>
+                </div>
             </div>
             <nav class="navigation">
                 <ul>
@@ -43,69 +47,226 @@
     <main class="main">
         <div class="container">
             <section>
-                <h1>INFORMACION GENERAL DE JAPON</h1><br>
-                <article>
-                    <p>Japón es un país situado en el continente asiático. El nombre oficial del país es <q>Nihon-koku</q> o <q>Nippon-koku</q>, cuya capital es la ciudad de Tokyo.</p>
-                    <p>Japón es un archipiélago formado por más de 6800 islas. Las cuatro islas principales que forman este país son las siguientes: Honshu, Hokkaido, Kyushu, Shikoku</p><br>
-                    <h2>RELIGIÓN</h2><br>
-                    <p>Japón tiene dos religiones principales, el sintoísmo y el budismo. La gran mayoría de la población afirma no ser seguidor de ninguna religión, aunque al final siguen tradiciones de ambas, por ejemplo, la mayoría de las bodas 
-                    se realizan bajo la religión sintoísta, sin embargo los entierros se realizan bajo el manto budista. </p>
-                    <p>El sintoísmo es una religión originaria de Japón, donde se venera a la fuerzas espirituales que existían en la naturaleza. Mártires y héroes japoneses son integrados en estos espíritus de la naturaleza y adorados como tales.</p>
-                    <p>El budismo es una religión que nace en la India y que es introducida en Japón a través de China y Corea. El fin último de los creyentes budistas es alcanzar la iluminación. Lo templos de culto budistas son espectaculares obras de arte.</p><br>
-                    <h2>MONEDA</h2><br>
-                    <p>La moneda oficial es el yen. El cambio de moneda se puede realizar tanto en bancos como en oficinas de cambio situadas en aeropuertos, estaciones y hoteles. El euro se acepta sin problemas.</p><br>
-                    <img src="images/moneda.jpg" alt="Bandera" width="450" height="300"><br><br>
-                    <h2>PARQUES NACIONALES</h2><br>
-                    <p>En Japón existen casi 90 parques nacionales, 28 de ellos administrados directamente por el ministerio de medio ambiente, y el resto dependientes de él. Los japoneses son muy respetuosos con la naturaleza, y concienciados en su cuidado, 
-                    participan activamente en la conservación de estos parques.</p>
-                    <p>La gran capacidad creativa de los japoneses, unida a su rica tradición, ha hecho posible que en reducidos espacios se hayan creado ambientes de gran armonía y belleza. Gracias a la influencia del Budismo Zen, los jardines de sencillo 
-                    diseño crean la ilusión de espacios ilimitados en áreas de reducidas dimensiones. Kyoto es particularmente rico en jardines como los de la Villa Imperial de Katsura, los del Pabellón Kinkakuji y los del castillo de Nijo, además del 
-                    jardín de rocas del Templo ryoan-ji. En Tokyo destacan los jardines de Higashi Gyoen, Hama Rikyu y el gran parque público Gyoen, uno de los lugares predilectos de la familia imperial.</p><br>
-                </article>
-
-                <aside></aside>
-                <aside></aside>
+                <div class="flex-box">
+                    <div class="flex-half-column distance">
+                        <h1>INFORMACION GENERAL DE JAPON</h1>
+                        <article>
+                            <p>Japón es un país situado en el continente asiático. El nombre oficial del país es
+                                <q>Nihon-koku</q> o <q>Nippon-koku</q>, cuya capital es la ciudad de Tokyo.</p>
+                            <p>Japón es un archipiélago formado por más de 6800 islas. Las cuatro islas principales que
+                                forman este país son las siguientes: Honshu, Hokkaido, Kyushu, Shikoku</p>
+                            <p>La moneda oficial es el yen. El cambio de moneda se puede realizar tanto en bancos como
+                                en oficinas de cambio situadas en aeropuertos, estaciones y hoteles. El euro se acepta
+                                sin problemas.</p>
+                            <p>Japón tiene dos religiones principales, el sintoísmo y el budismo.</p><br>
+                            <div class="flex-button">
+                                <button class="btn">BUTTON 1</button>
+                                <button class="btn">BUTTON 1</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="flex-half-column distance">
+                        <img src="images/moneda.jpg" alt="Bandera" width="550" height="400">
+                    </div>
+                    <aside></aside>
+                    <aside></aside>
+                </div>
             </section>
             <section>
-                <h1>INFORMACION DEL SIMBOLO PATRIO</h1><br>
+                <div class="container">
+                    <div class="slider distance">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>Lorem, ipsum dolor.</h4>
+                                    <div class=" flex-box">
+                                        <div class="flex-half-column">
+                                            <i class="fas fa-user-md icon-slider"></i>
+                                            <div class="rating-star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-half-column text-slider">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                                recusandae,
+                                                necessitatibus alias, id corporis libero obcaecati qui officiis
+                                                reiciendis
+                                                quidem aperiam ab, voluptate eos porro reprehenderit hic
+                                                voluptatibus.
+                                                Doloremque, similique.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Lorem, ipsum dolor.</h4>
+                                    <div class=" flex-box">
+                                        <div class="flex-half-column">
+                                            <i class="fas fa-user-nurse icon-slider"></i>
+                                            <div class="rating-star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-half-column text-slider">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                                recusandae,
+                                                necessitatibus alias, id corporis libero obcaecati qui officiis
+                                                reiciendis
+                                                quidem aperiam ab, voluptate eos porro reprehenderit hic
+                                                voluptatibus.
+                                                Doloremque, similique.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Lorem, ipsum dolor.</h4>
+                                    <div class=" flex-box">
+                                        <div class="flex-half-column">
+                                            <i class="fas fa-user-secret icon-slider"></i>
+                                            <div class="rating-star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-half-column text-slider">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                                recusandae,
+                                                necessitatibus alias, id corporis libero obcaecati qui officiis
+                                                reiciendis
+                                                quidem aperiam ab, voluptate eos porro reprehenderit hic
+                                                voluptatibus.
+                                                Doloremque, similique.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Lorem, ipsum dolor.</h4>
+                                    <div class=" flex-box">
+                                        <div class="flex-half-column">
+                                            <i class="fas fa-user-astronaut icon-slider"></i>
+                                            <div class="rating-star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-half-column text-slider">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                                recusandae,
+                                                necessitatibus alias, id corporis libero obcaecati qui officiis
+                                                reiciendis
+                                                quidem aperiam ab, voluptate eos porro reprehenderit hic
+                                                voluptatibus.
+                                                Doloremque, similique.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Lorem, ipsum dolor.</h4>
+                                    <div class=" flex-box">
+                                        <div class="flex-half-column">
+                                            <i class="fas fa-user-tie icon-slider"></i>
+                                            <div class="rating-star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-half-column text-slider">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                                recusandae,
+                                                necessitatibus alias, id corporis libero obcaecati qui officiis
+                                                reiciendis
+                                                quidem aperiam ab, voluptate eos porro reprehenderit hic
+                                                voluptatibus.
+                                                Doloremque, similique.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+                        <script>
+                            var swiper = new Swiper('.swiper-container', {
+                                navigation: {
+                                    nextEl: '.swiper-button-next',
+                                    prevEl: '.swiper-button-prev',
+                                },
+                            });
+                        </script>
+                    </div>
+            </section>
+            <section id="symbol">
+                <h1>INFORMACION DEL SIMBOLO PATRIO</h1>
                 <article>
-                    <h2>Bandera nacional</h2><br>
-                    <p>
-                        Tiene un círculo rojo en el centro sobre un fondo blanco que representa el sol. Para los japoneses, un pueblo agrícola, el sol ha sido el símbolo de su fe y adoración por la naturaleza. Aunque a nivel mundial no es frecuente dibujar el 
-                        sol coloreado de rojo, en Japón el rojo y el blanco son dos colores auspiciosos. Además, hay una teoría que sostiene que esta bandera con <q>círculo rojo sobre un fondo blanco</q> se ha ido transmitiendo como el símbolo de la unificación del 
-                        país desde la época de la victoria del clan Minamoto, cuando derrotó al clan Taira en la guerra civil que se produjo a finales del siglo XII y que mantenía a Japón dividido en dos.
-                    </p>
-                    <p>
-                        Se estableció como bandera nacional en 1999. Su nombre legal es Nisshōki (bandera del sol), aunque comúnmente se la llama Hinomaru. La forma de la bandera es rectangular, y su vertical mide dos tercios del lado horizontal. 
-                        El diámetro del sol es tres quintas partes de la longitud vertical de la bandera y su centro coincide con el centro de la bandera.
-                    </p><br>
-                    <img src="images/bandera.jpg" alt="Bandera" width="450" height="300"><br><br>
-                    <h2>Emblema nacional</h2><br>
-                    <p>
-                        El emblema que simboliza a Japón se llama Kokushō. Generalmente, como el diseño del emblema es más complejo que el de la bandera nacional, en él se representa simbólicamente la idiosincrasia, historia y cultura de dicho país. <br>
-                        En Japón, el emblema nacional no está definido legalmente con claridad. Sin embargo, se utiliza tradicionalmente el blasón del emperador. Aún hoy en día la familia imperial emplea dicho blasón que está compuesto por un crisantemo de 
-                        flores dobles con dieciséis pétalos. Este blasón es empleado habitualmente como emblema nacional.
-                    </p><br>
-                    <img src="images/emblema.jpg" alt="Himno" width="300" height="300"><br><br>
-                    <h2>Himno nacional</h2><br>
-                    <p>
-                        Kokka significa en japonés <q>himno nacional</q>, y es la canción que simboliza a un país. Dependiendo del país, puede que se haya decidido o bien legalmente, por voluntad popular o que se haya adoptado un himno nacional histórico. 
-                        En Japón, fue el estado quien estableció Kimigayo como himno nacional en 1999. Su letra es un tanka (poema corto) que aparece registrado en Kokin wakashū (Colección de poemas japoneses antiguos y modernos), una antología poética del siglo X. 
-                    </p><br>
-                    <img src="images/himno.jpg" alt="Himno" width="450" height="300"><br><br>
+                    <div class="flex-box">
+                        <div class="flex-3-column">
+                            <h2>Bandera nacional</h2>
+                            <img src="images/bandera.jpg" alt="Bandera" width="250" height="200">
+                        </div>
+                        <div class="flex-3-column">
+                            <h2>Emblema nacional</h2>
+                            <img src="images/emblema.jpg" alt="Himno" width="200" height="200">
+                        </div>
+                        <div class="flex-3-column">
+                            <h2>Himno nacional</h2>
+                            <img src="images/himno.jpg" alt="Himno" width="250" height="200">
+                        </div>
+                    </div>
                 </article>
-                
                 <aside></aside>
             </section>
         </div>
     </main>
     <footer class="footer">
         <div class="container">
-            <span>Mateo Córdova Alvarez &#8226; Universidad Politecnica Salesiana</span>
-            &#8226; <a href="mailto:fcordovaa@est.ups.edu.ec">fcordovaa@est.ups.edu.ec</a>
-            &#8226; <a href="tel:0987788345">0987788345</a>
-            &copy; <span> Todos los derechos reservados </span>
-        </div>     
+            <div class="flex-box">
+                <div class="flex-3-column contact">
+                    <i class="fab fa-facebook-square icon-footer"></i>
+                    <i class="fab fa-instagram icon-footer"></i><br>
+                    <img class="logo-footer" src="images/logo.jpg" alt="Logo"><br>
+                    <span>Mateo Córdova Alvarez <br> &#8226; U.P.S.</span><br>
+                    &#8226; <a href="mailto:fcordovaa@est.ups.edu.ec">fcordovaa@est.ups.edu.ec</a><br>
+                    &#8226; <a href="tel:0987788345">0987788345</a><br>
+                    &copy; <span> Todos los derechos reservados </span>
+                </div>
+                <div class="flex-3-column">
+                    <h4>LINK BLOCK</h4>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                    </ul>
+                </div>
+                <div class="flex-3-column">
+                    <h4>LINK BLOCK</h4>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
