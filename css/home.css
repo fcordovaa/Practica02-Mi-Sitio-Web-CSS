@@ -131,14 +131,38 @@ body {
 #symbol{
     margin-top: 20px;
     background: #6e6464;
-    position: static;
+ 
     left: 0;
     right: 0;
 }
 
 #symbol h1 {
     text-align: center;
-}    
+}
+
+.flex-5-column {
+    flex-basis: 20%;
+}
+
+.image5 {
+    position: relative;
+    margin: 20px 10px;
+}
+  
+.text-block {
+    display: none;
+}
+
+.image5 img {
+    width: 100%;
+    transition: all 0.4s linear;
+}
+
+.image5 img:hover {
+    position: absolute;
+    background-color: black;
+    color: white;
+}
 
 .flex-3-column {
     flex-basis: 33%;
@@ -146,6 +170,7 @@ body {
 }
 
 .footer {
+    clear: both;
     background: #bbb7b7;
     padding: 5px 0;
     text-align: center;
