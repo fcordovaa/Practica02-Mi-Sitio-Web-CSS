@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Audiowide', cursive;
+    background-color:rgb(233, 235, 238);
     color: #333;
     font-size: 1rem;
     margin: 0;
@@ -17,16 +18,25 @@ body {
 }
 
 .header {
-    background: #bbb7b7;
-    color: #333;
-    position: fixed;
+    background: #333;
+    color: white;
+    padding-top: 1px;
+}
+
+.header2 {
+    background: #333;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    position: sticky;
     left: 0;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
-.header a {
-    color: #333;
+.header a, .header2 a {
+    color: white;
     text-decoration: none;
 }
 
@@ -85,14 +95,20 @@ body {
             }
 
 .main {
-    padding-top: 10rem;
+    padding-top: 1rem;
 }
-
+.flex-half-column img {
+    border-radius: 8px;
+}
+.slider {
+    position: relative;
+    z-index: 0;
+}
 .swiper-slide {
     align-items: center;
 }
 
-.swiper-slide h4 {
+.container h2, .swiper-slide h3 {
     text-align: center;
     text-transform: uppercase;
 }
@@ -128,40 +144,43 @@ body {
     flex-basis: 45%;
 }
 
+/*
 #symbol{
     margin-top: 20px;
-    background: #6e6464;
- 
+    background: #333;
+    color: white;
+    padding: 10px 0;
     left: 0;
     right: 0;
-}
-
-#symbol h1 {
-    text-align: center;
-}
+}*/
 
 .flex-5-column {
     flex-basis: 20%;
 }
 
 .image5 {
-    position: relative;
+    text-align: center;
     margin: 20px 10px;
+    position: relative;
 }
   
 .text-block {
-    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
 }
 
 .image5 img {
     width: 100%;
-    transition: all 0.4s linear;
+    border-radius: 5px;
 }
 
 .image5 img:hover {
-    position: absolute;
-    background-color: black;
-    color: white;
+    opacity: 0.2;
+}
+.image5 img:hover ~ .text-block{
+    visibility: visible;
+    color: #333;
 }
 
 .flex-3-column {
@@ -171,10 +190,11 @@ body {
 
 .footer {
     clear: both;
-    background: #bbb7b7;
+    background: #333;
+    color: white;
     padding: 5px 0;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .icon-footer {
