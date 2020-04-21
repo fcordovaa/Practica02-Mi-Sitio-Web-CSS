@@ -53,14 +53,13 @@ body {
     letter-spacing: 5px;
 }
 
-.find {
+.logo-find-container input {
     width: 50%;
     height: 100%;
     float: left;
     padding: 7px;
     margin-left: 66px;
 }
-
 .profile {
     margin-left: 66px;
 }
