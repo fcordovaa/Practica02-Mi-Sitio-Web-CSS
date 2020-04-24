@@ -86,10 +86,8 @@ img {
 }
 
 #content {
-    margin: 10px;
-    width: 48%;
-    float: left;
-    clear: both;
+    margin: 40px auto;
+    width: 50%;
     border-width: 2px;
 }
 
@@ -100,11 +98,20 @@ img {
     margin-top: 6rem;
 }
 
+#txtContact {
+    width: 200px;
+}
+
+#txtMessage {
+    width: 95%;
+    height: 200px;
+}
+
 #footercontact {
     background: #bbb7b7;
     padding: 2rem 0;
     text-align: center;
-    margin-top: 37rem;
+    margin-top: 210px;
     clear: both;
 }
 
