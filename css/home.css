@@ -86,7 +86,7 @@ body {
             text-align: center;
             border-radius: 0.5em;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 10px 12px ;
             transition: all 0.4s linear;
         }
                 .navigation ul li a:hover{

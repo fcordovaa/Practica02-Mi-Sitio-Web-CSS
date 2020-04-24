@@ -10,7 +10,7 @@ body {
     text-justify: inter-word;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ img {
 }
 .logo {
     float: left;
-    width: 18%;
+    width: 15%;
     border-radius: 8px;
     letter-spacing: 5px;
     font-size: 1.2em;
@@ -81,11 +81,31 @@ img {
     padding-top: 6rem;
 }
 
+.inter br {
+    display: inline;
+}
+
+#content {
+    margin: 10px;
+    width: 48%;
+    float: left;
+    clear: both;
+    border-width: 2px;
+}
+
 .footer {
     background: #bbb7b7;
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
     margin-top: 6rem;
+}
+
+#footercontact {
+    background: #bbb7b7;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 37rem;
+    clear: both;
 }
 
 @media only screen and (max-width: 767px) {
@@ -109,3 +129,16 @@ img {
                     background-color: #075060;
                 }
 }
+
+/* PAGE JP_ISLE */
+
+#map{
+    width: 100%;
+}
+
+#f_p {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
