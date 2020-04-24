@@ -91,6 +91,6 @@ https://github.com/fcordovaa/Practica02-Mi-Sitio-Web-CSS<br>
 <p>Gracias al uso de css se puede realizar una pagina mucho mas intuitiva con el usuario fácil de usar y físicamente bonita, de igual manera al hacer uso de dos columnas y 3 se puede organizar de mejor manera toda la información para que sea de fácil acceso y entendible, con css también se puede realizar que una pagina sea responsive en el caso de que se use en una pantalla con menor resolución con en el de un celular y una Tablet así la pagina se adaptaría al tamaño de la pantalla.<p>
 <h1>Firma</h1>
 
-![Image 21](https://github.com/fcordovaa/Practica01-Mi-Primer-Sitio-Web/blob/master/images/informe/imagen21.png)
+![Image 21](https://github.com/fcordovaa/Practica02-Mi-Sitio-Web-CSS/tree/master/images/informe/imagen21.png)
 
 
