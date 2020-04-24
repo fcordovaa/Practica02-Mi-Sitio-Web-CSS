@@ -107,6 +107,18 @@ img {
     height: 200px;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td, h3 {
+    text-align: center;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {background-color: #8c8585;}
+
 #footercontact {
     background: #bbb7b7;
     padding: 2rem 0;
